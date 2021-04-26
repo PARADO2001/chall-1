@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sayt{
+    width: 960px;
+    margin: 0 auto;
+    /* background: darkkhaki; */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.header{
+    height: 40px;
+    background-color: #3E4651;
+
+}
+.header ul{
+    display: flex;
+    list-style: none;
+}
+.header ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 40px;
+    padding: 10px;
+    line-height: 40px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ad{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    
+    
+     
+}
+
+.ad > div{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    border-radius: 20px;
+
+}
+.ad > div a{
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    line-height: 150px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    font-weight: bolder;
+} 
+.reklama1{
+background-image: url(reklama1.jpg);
+background-size: cover;
+}
+.reklama2{
+    background-image: url(reklama2.jpg);
+    background-size: cover;
+}
+.reklama3{
+    background-image: url(reklama3.jpg);
+    background-size: cover;
+}
+.reklama4{
+    background-image: url(reklama4.jpg);
+    background-size: cover;
+}
+input{
+    text-align: left;
+}
+.page-header{
+    position: relative;
+    height: 240px;
+    background: #D2D7D3;
+    
+    
+}
+.asia{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.asia > div{
+   margin-right:30px ;
+}
+.logo{
+    padding-bottom: 5px;
+}
+button{
+    background-color: #fff;
+    color: #999999;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: #fff;
+    border-radius: 3px;
+
+}
+.header-menu{
+    position: relative;
+    /* top: 20px; */
+    height: 50px;
+    box-sizing: border-box;
+    background-color: #3E4651;
+
+}
+.header-menu ul{
+    display: flex;
+    list-style: none;
+    margin-left: 250px;
+}
+.header-menu ul li{
+     padding-left: 10px;
+
+}
+
+.header-menu ul a{
+    text-decoration: none;
+    list-style: none;
+    line-height: 50px;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: tahoma;
+}
+
+.container{
+    /* width: 960px; */
+    /* height: 800px; */
+    background: #fff);
+    margin: 0 auto;
+}
+.natijalar{
+    padding-top: 10px;
+    display: grid;
+    grid-gap: 10px ;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.natijalar .row{
+    width: 220px;
+    background-color: #f2f2f2;
+    display: grid;
+    justify-content: start;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 0.2fr 1fr;
+
+}
+.natijalar .icon{
+    /* width: 100; */
+    padding-left: 5px;
+    /* background-color: #f2f2f2; */
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:1 ;
+    grid-row-end:4 ;
+}
+.natijalar .icon img{
+    width: 100%;
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.natijalar .row .score-cell{
+    width: 200px;
+    grid-column-start:2 ;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    /* background-color: #f2f2f2; */
+    display: flex;
+}
+.natijalar .row .score-cell .club-1{
+    width: 150px;
+    text-align: right;
+    padding-right: 5px;
+}
+.natijalar .row .score-cell .logo-1 img{
+    width: 25px;
+    height: 20px;
+}
+.natijalar .row .score-cell .score-number{
+    width: 20px;
+    text-align: center;
+   
+}
+.natijalar .row .cell-seperator{
+    /* background-color: #f2f2f2; */
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: end;
+    padding-right: 7px;
+}
+.natijalar .row .score-cell-2{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    width: 200px;
+    /* background-color: #f2f2f2; */
+    display: flex;
+}
+.natijalar .row .score-cell-2 .club-2{
+    width: 150px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.natijalar .row .score-cell-2 .logo-2 img{
+    /* background-color: brown; */
+    width: 25px;
+    height: 20px;
+}
+.natijalar .row .score-cell-2 .score-number-2{
+    width: 20px;
+    text-align: center;
+}
+.vinisius{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    padding: 40px;
+    margin: 20px 20px;
+    background-image: url(629530_680.jpg);
+    background-size: cover;
+}
+.vinisius .orqa{
+    width: 300px;
+    height: 150px;
+    opacity: 60%;
+    margin-left: 50px;
+    padding-top: 100px;
+    background-color:black;
+}
+
+.vinisius .orqa a{
+    text-decoration: none;
+    color: cornsilk;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+h1{
+    color: darkblue;
+}
+.yangi-yangi{
+    width: 200px;
+    height: 35px;
+    border: solid 2px red;
+    border-radius: 5px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.yangi-yangi a{
+    text-decoration:none ;
+    color: red;
+    line-height: 35px;
+
+}
+.block{
+    display: flex;
+    
+}
+.left{
+    width: 700px;
+   
+}
+
+.new-item{
+    box-sizing: border-box;
+    width: 700px;
+    padding: 15px;
+    display: flex;
+    border-bottom: #999999 1px solid;
+
+}
+.new-item img{
+    width: 250px;
+}
+.haqida{
+    display: flex;
+    padding-left: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.haqida{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.haqida .textt a{
+    text-decoration: none;
+}
+.haqida .korish a{
+    text-decoration: none;
+    color: red;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    color: #999999;
+}
+.right{
+    width: 260px;
+    height: 700px;
+    box-sizing: border-box;
+    border: 1px solid red;
+    margin-left: 10px;
+}
+.new-item-1{
+    text-align: center;
+    
+}
+.new-item-1 img{
+    display: block;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.new-item-1 a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 15px;
+}
+.row:hover {
+    background-color: darkgray;
+}
+i{
+    align-items: flex-end;
+    color:#999999;
+}
+
+.footer-1{
+    /* height: 400px; */
+    background: #979491;
+    display: flex;
+    flex-direction: column;
+}
+.footer-1 h1{
+    display: block;
+    text-align: center
+}
+.inter{
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.inter img{
+    width: 200px;
+}
+.desc{
+    width: 200px;
+    padding-left: 15px;
+}
+.desc a{
+    text-decoration: none;
+}
+.footer-last{
+    width: auto;
+    /* height: 500px; */
+    background-color: #3e4651;
+}
+.awesome{
+    width: 960px;
+    margin: 0 auto;
+    /* height: 500px; */
+    /* background-color: aqua; */
+}
+.ikonka{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.farax img{
+    width: 85px;
+    height: 80px;
+    margin-left: 200px;
+    margin-top: -40px;
+ }
+ .collect{
+     margin: 15px;
+ }
+ .content-last{
+     /* height: 20px; */
+     width: 960px ;
+     margin: 0 auto;
+    /* background: rgb(92, 85, 85); */
+    display: flex;
+    fle
+ }
+ .content-left{
+     width: 560px;
+     /* background-color: chocolate; */
+ }
+ .content-left ul{
+     display: flex;
+     flex-direction: row;
+     font-size: small;
+     font-weight: 600;
+     padding: 5px;
+     margin-left: 15px;
+
+ }
+ .content-left ul li{
+     list-style: none;
+     margin-right: 10px;
+     border-right:2px solid white ;
+ }
+ .content-right{
+     width: 400px;
+     /* background-color: rgb(210, 30, 180); */
+ }
+ .content-right ul{
+     display: flex;
+     flex-direction: row;
+     font-size: small;
+     font-weight: 600;
+     padding: 5px;
+     margin-left: 15px;
+
+ }
+ .content-right ul li{
+     list-style: none;
+     margin-right: 10px;
+     border-right:2px solid white ;
+ }
+ .content-right ul li img{
+     width: 40px;
+     height: 40px;
+ }
